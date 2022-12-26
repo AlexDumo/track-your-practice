@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import InputContainer from './Components/InputContainer';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -11,9 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="/">Track Your Practice</a>
-    </nav>
-    <div>Track your practice is a free app used to track meaningful progress in musical practice. The functions are extremely limited currently. Saving practice data to a specified login on a database is not supported.</div>
+  <a class="navbar-brand" href="/">Track Your Practice</a>
+</nav>
 
     <InputContainer />
   </React.StrictMode>
